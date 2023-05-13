@@ -1,7 +1,25 @@
- .projects {
-    border: yellow 2px solid;
- }
+.projects {
+   border: yellow 2px solid;
+   display: flex;
+   justify-content: space-around;
+}
 
- .img{
-    width: 400px;
- }
+h1{
+   font-size: 20px;
+}
+
+.img{
+   width: 400px;
+}
+
+.notes{
+   font-size: 12px;
+   width: 400px;
+   text-align: start;
+}
+
+button{
+   height: 25px;
+   width: 80px;
+   margin: 10px 5px;
+}

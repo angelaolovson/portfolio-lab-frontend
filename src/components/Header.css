@@ -1,0 +1,18 @@
+/* h1{
+    font-size: 20px;
+} */
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+Link{
+    text-decoration: none;
+}
