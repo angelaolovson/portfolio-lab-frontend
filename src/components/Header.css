@@ -1,16 +1,27 @@
-/* h1{
-    font-size: 20px;
-} */
-
+@font-face {
+    font-family: "Freight Sans Light";
+    src: url(../Font/Freight\ Sans\ Light.otf) format("opentype");
+}
+@font-face {
+    font-family: "Freight Sans Book";
+    src: url(../Font/Freight\ Sans\ Book.otf) format("opentype");
+}
+@font-face {
+    font-family: "Freight Sans Medium";
+    src: url(../Font/Freight\ Sans\ Medium.otf) format("opentype");
+}
 .nav{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
     text-decoration: none;
+    margin: 30px;
+    font-family:"Freight Sans Book" ;
+    font-size: 24px;
 }
 
 .nav a{
     text-decoration: none;
+    color: black;
 }
 
 Link{

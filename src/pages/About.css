@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Freight Sans Light";
+    src: url(../Font/Freight\ Sans\ Light.otf) format("opentype");
+}
+@font-face {
+    font-family: "Freight Sans Book";
+    src: url(../Font/Freight\ Sans\ Book.otf) format("opentype");
+}
+@font-face {
+    font-family: "Freight Sans Medium";
+    src: url(../Font/Freight\ Sans\ Medium.otf) format("opentype");
+}
+.about {
+    display: flex;
+    padding-top: 100px;
+    font-family:"Freight Sans Book";
+    justify-content: center;
+    justify-items: center;
+}
+.aboutMain{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
+
+}
+.imgContainerAbout{
+    display: flex;
+    width: 350px;
+}
+.imgHome{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.verticalLine {
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+}
+.infoContainerAbout{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.nameAbout{
+    font-size: 36px;
+    font-family:"Freight Sans Medium";
+    margin-bottom: 10px;
+}
+.titleAbout{
+    font-size: 26px;
+    font-family:"Freight Sans Light";
+    margin-bottom: 20px;
+}
+
+.bioAbout{
+    font-size: 26px;
+    line-height: 35px;
+    font-family:"Freight Sans Light";
+    margin-bottom: 30px;
+}
+.emailAbout{
+    font-size: 22px;
+    font-family:"Freight Sans Light";
+    margin-bottom: 40px;
+}
+.buttons{
+    margin: 0 10px;
+    font-family:"Freight Sans Light";
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+ }

@@ -1,7 +1,7 @@
 import './Footer.css'
 
 function Footer(props) {
-    return <h1>My Application copyright 2023 Angela Olovson</h1>;
+    return <div className='footer'>My Application copyright 2023 Angela Olovson</div>;
   }
   
   export default Footer;

@@ -1,25 +1,53 @@
+@font-face {
+   font-family: "Freight Sans Light";
+   src: url(../Font/Freight\ Sans\ Light.otf) format("opentype");
+}
+@font-face {
+   font-family: "Freight Sans Book";
+   src: url(../Font/Freight\ Sans\ Book.otf) format("opentype");
+}
+@font-face {
+   font-family: "Freight Sans Medium";
+   src: url(../Font/Freight\ Sans\ Medium.otf) format("opentype");
+}
+
 .projects {
-   border: yellow 2px solid;
    display: flex;
    justify-content: space-around;
 }
-
-h1{
-   font-size: 20px;
+.projectContainer{
+   height: 87%;
+}
+.projectTitle{
+   font-size: 34px;
+   font-family:"Freight Sans Medium";
+   margin-bottom: 10px;
+   margin-top: 20px;
 }
 
-.img{
+.projectImg{
    width: 400px;
 }
 
-.notes{
-   font-size: 12px;
+.projectNotes{
+   font-size: 20px;
    width: 400px;
    text-align: start;
+   font-family:"Freight Sans Light";
+   margin-top: 10px;
+   margin-bottom: 30px;
 }
 
-button{
+.projectButton{
    height: 25px;
    width: 80px;
    margin: 10px 5px;
+}
+
+.buttons{
+   margin: 0 10px;
+   font-family:"Freight Sans Light";
+   font-size: 20px;
+   width: 100px;
+   height: 30px;
 }

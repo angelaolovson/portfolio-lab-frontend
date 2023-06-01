@@ -25,12 +25,14 @@ function Projects(props) {
       (<>
       {projectsData.map((project) => (
         <div >
-          <h1>{project.name}</h1>
-          <img className="img" src={project.image} alt="projectScreenShot"/>
-          <div className="notes">{project.notes}</div>
-          <div className="buttons">
-            <a href={project.git}><button>Github</button></a>
-            <a href={project.live}><button>Live Site</button></a>
+          <div className="projectContainer">
+            <div className="projectTitle">{project.name}</div>
+            <img className="projectImg" src={project.image} alt="projectScreenShot"/>
+            <div className="projectNotes">{project.notes}</div>
+          </div>
+          <div className="projectButtons">
+            <a href={project.git}><button className="buttons">Github</button></a>
+            <a href={project.live}><button className="buttons">Live Site</button></a>
           </div>
         </div>
       

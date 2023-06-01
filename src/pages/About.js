@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './About.css'
 
 function About(props) {
 
@@ -22,9 +23,24 @@ function About(props) {
     <div>
     { aboutData !== null ? 
     (<>
-      <h2>{aboutData.name}</h2>
-      <h3>{aboutData.email}</h3>
-      <p>{aboutData.bio}</p>
+    <div className="about">
+      <div className="aboutMain">
+        <div className="imgContainerAbout">
+          <img className="imgHome" src="https://res.cloudinary.com/dlxrcak5o/image/upload/v1683571916/Portfolio%20Lab/Greenshot_2023-01-11_17.36.29_ts87gn.png" alt="projectScreenShot"/>
+        </div>
+        <div className="infoContainerAbout">
+          <div className="nameAbout">{aboutData.name}</div>
+          <div className="titleAbout">Software Engineer | Fashion Merchandiser | Florist</div>
+          <div className="bioAbout">{aboutData.bio}</div>
+          <div className="emailAbout">Contact Me: angela.olovson@gmail.com</div>
+          <div className="buttonsAbout">
+            <a href="https://github.com/angelaolovson"><button className="buttons">Github</button></a>
+            <a href="https://www.linkedin.com/in/angela-olovson-yihui-lin/"><button className="buttons">LinkedIn</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
     </>): "Loading"}
       
   </div>

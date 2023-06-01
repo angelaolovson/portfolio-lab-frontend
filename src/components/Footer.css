@@ -1,3 +1,18 @@
-h1{
-    font-size: 10px;
+@font-face {
+    font-family: "Freight Sans Light";
+    src: url(../Font/Freight\ Sans\ Light.otf) format("opentype");
+}
+@font-face {
+    font-family: "Freight Sans Book";
+    src: url(../Font/Freight\ Sans\ Book.otf) format("opentype");
+}
+@font-face {
+    font-family: "Freight Sans Medium";
+    src: url(../Font/Freight\ Sans\ Medium.otf) format("opentype");
+}
+
+.footer{
+    font-size: 20px;
+    font-family:"Freight Sans Light" ;
+    margin-top: 100px;
 }

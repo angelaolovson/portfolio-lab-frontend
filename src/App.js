@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <Header />
       {routes}
-      <Footer />
+      <Footer className="footer" />
     </div>
   );
 }
